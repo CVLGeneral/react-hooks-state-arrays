@@ -9,6 +9,7 @@ function SpicyFoodList() {
     console.log(newFood);
   }
 
+  
   const foodList = foods.map((food) => (
     <li key={food.id}>
       {food.name} | Heat: {food.heatLevel} | Cuisine: {food.cuisine}
